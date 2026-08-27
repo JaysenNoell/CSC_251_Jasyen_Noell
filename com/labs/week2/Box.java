@@ -1,3 +1,7 @@
+/*
+@author: Jaysen Noell
+@Date: 8/24/2026
+*/
 //javac -d bin com/labs/week2/*.java
 //java -cp bin com.labs.week2.Main
 package com.labs.week2;
