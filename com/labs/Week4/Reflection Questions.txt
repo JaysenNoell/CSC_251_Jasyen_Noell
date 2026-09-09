@@ -1,0 +1,22 @@
+Question:
+Which loop gives you access to the index?
+Why might that matter?
+
+Answer:
+The traditional for loop gives you access to the index. 
+This matters because you can use the index to access or change a specific item in 
+the ArrayList.
+
+Question:
+What happens internally when removing from the middle?
+
+Answer:
+When removing from the middle of an ArrayList, the elements after it shift one 
+position to the left to fill the empty space.
+
+Question:
+Why might ArrayList become inefficient for large data sets?
+
+Answer:
+ArrayList can become inefficient because searching takes longer with more students, and 
+removing from the middle requires shifting other elements.
