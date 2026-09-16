@@ -8,7 +8,7 @@
 package com.labs.week5;
 public class Main {
     public static void main(String[] args) {
-
+        // Run the DirectoryAnalyzer program
         DirectoryAnalyzer.main(args);
     }
 }

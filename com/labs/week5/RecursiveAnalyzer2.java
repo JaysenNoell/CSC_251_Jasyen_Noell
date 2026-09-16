@@ -9,7 +9,9 @@ package com.labs.week5;
 import java.util.ArrayList;
 public class RecursiveAnalyzer2 {
     public static void main(String[] args) {
+        // Create a list of numbers
         ArrayList<Integer> numbers = new ArrayList<>();
+        // Add numbers to the list
         numbers.add(1);
         numbers.add(2);
         numbers.add(3);
@@ -30,14 +32,19 @@ public class RecursiveAnalyzer2 {
         numbers.add(18);
         numbers.add(19);
         numbers.add(20);
+        // Print the entire list
         System.out.println("Numbers: " + numbers);
+        // Start printing each number recursively
         printArrayList(numbers, 0);
     }
     public static void printArrayList(ArrayList<Integer> numbers, int index) {
+        // Stop when all numbers have been printed
         if (index == numbers.size()) {
             return;
         }
+        // Print the current number
         System.out.println(numbers.get(index));
+        // Move to the next number
         printArrayList(numbers, index + 1);
     }
 }
